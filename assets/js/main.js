@@ -1,11 +1,3 @@
-/**
-* Template Name: iLanding
-* Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
-* Updated: Nov 12 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 
@@ -92,7 +84,7 @@
       mirror: false
     });
   }
-  window.addEventListener('load', aosInit);
+  window.addEventListener('DOMContentLoaded', aosInit);  // Changed from 'load' to 'DOMContentLoaded' to fix CLS
 
   /**
    * Initiate glightbox
